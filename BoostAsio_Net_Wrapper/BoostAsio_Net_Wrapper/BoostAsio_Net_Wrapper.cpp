@@ -13,8 +13,8 @@ void client_side() {
 }
 
 int _tmain(int argc, _TCHAR* argv[]){
-	server_side();
-	//client_side();
+	//server_side();
+	client_side();
 
 	std::cin.get();
 	return 0;

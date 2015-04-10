@@ -33,12 +33,7 @@ void ClientConnection::OnSend(const std::vector< uint8_t > & buffer) {
 	std::cout << "[" << __FUNCTION__ << "] " << buffer.size() << " bytes" << std::endl;
 	for (size_t x = 0; x < buffer.size(); ++x)
 	{
-		std::cout << std::hex << std::setfill('0') <<
-			std::setw(2) << (int) buffer[x] << " ";
-		if ((x + 1) % 16 == 0)
-		{
-			std::cout << std::endl;
-		}
+		std::cout << buffer[x];
 	}
 	std::cout << std::endl;
 	TULOCK;
@@ -49,12 +44,7 @@ void ClientConnection::OnRecv(std::vector< uint8_t > & buffer) {
 	std::cout << "[" << __FUNCTION__ << "] " << buffer.size() << " bytes" << std::endl;
 	for (size_t x = 0; x < buffer.size(); ++x)
 	{
-		std::cout << std::hex << std::setfill('0') <<
-			std::setw(2) << (int) buffer[x] << " ";
-		if ((x + 1) % 16 == 0)
-		{
-			std::cout << std::endl;
-		}
+		std::cout << buffer[x];
 	}
 	std::cout << std::endl;
 	TULOCK;
