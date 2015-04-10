@@ -41,7 +41,10 @@
     <ClCompile Include="network_sockapi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="net_handler.cpp">
+    <ClCompile Include="net_client_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net_server_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

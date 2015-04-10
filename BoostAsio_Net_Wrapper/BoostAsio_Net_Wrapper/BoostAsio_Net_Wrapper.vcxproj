@@ -89,7 +89,8 @@
   <ItemGroup>
     <ClCompile Include="BoostAsio_Net_Wrapper.cpp" />
     <ClCompile Include="network_sockapi.cpp" />
-    <ClCompile Include="net_handler.cpp" />
+    <ClCompile Include="net_client_handler.cpp" />
+    <ClCompile Include="net_server_handler.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
