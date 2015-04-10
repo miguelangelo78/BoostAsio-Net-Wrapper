@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostAsio_Net_Wrapper", "BoostAsio_Net_Wrapper\BoostAsio_Net_Wrapper.vcxproj", "{7A2C485A-898D-45C3-B279-32BD3058AA63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2C485A-898D-45C3-B279-32BD3058AA63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2C485A-898D-45C3-B279-32BD3058AA63}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2C485A-898D-45C3-B279-32BD3058AA63}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2C485A-898D-45C3-B279-32BD3058AA63}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
