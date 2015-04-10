@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="network_sockapi.h">
+    <ClInclude Include="net\net_sockapi\network_sockapi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="net_handler.h">
+    <ClInclude Include="net\net_handler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,13 +35,13 @@
     <ClCompile Include="BoostAsio_Net_Wrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="network_sockapi.cpp">
+    <ClCompile Include="net\net_sockapi\network_sockapi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="net_client_handler.cpp">
+    <ClCompile Include="net\net_server_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="net_server_handler.cpp">
+    <ClCompile Include="net\net_client_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

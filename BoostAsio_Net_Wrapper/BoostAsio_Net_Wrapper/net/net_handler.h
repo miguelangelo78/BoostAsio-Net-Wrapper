@@ -1,5 +1,5 @@
 #pragma once
-#include "network_sockapi.h"
+#include "net_sockapi\network_sockapi.h"
 #include <boost\thread\mutex.hpp>
 #include <conio.h>
 
